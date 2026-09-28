@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="242.484 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="154"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/pc_reg/PC_OUT" type="array">
+      <obj_property name="ElementShortName">PC_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_OUT[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/alu/TR1_L" type="logic">
+      <obj_property name="ElementShortName">TR1_L</obj_property>
+      <obj_property name="ObjectShortName">TR1_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/alu/TR2_L" type="logic">
+      <obj_property name="ElementShortName">TR2_L</obj_property>
+      <obj_property name="ObjectShortName">TR2_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/alu/ALU_OUT" type="array">
+      <obj_property name="ElementShortName">ALU_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_OUT[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/mem/MEM_OUT" type="array">
+      <obj_property name="ElementShortName">MEM_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_OUT[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/rbank/r1/D_OUT" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R1-Remainder</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/rbank/r2/D_OUT" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">R2-Divisor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/rbank/r4/D_OUT" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">D_OUT[15:0]R4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/rbank/r3/D_OUT" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="label">R3-Quotient</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/rbank/r5/D_OUT" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D_OUT[15:0]</obj_property>
+      <obj_property name="label">R5-Zero Reg</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/ctrl/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/ctrl/WR_N" type="logic">
+      <obj_property name="ElementShortName">WR_N</obj_property>
+      <obj_property name="ObjectShortName">WR_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uut1/D" type="array">
+      <obj_property name="ElementShortName">D[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
